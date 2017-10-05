@@ -1,6 +1,5 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-//#include <GL/glew.h>
 
 #include <iostream>
 
@@ -33,8 +32,6 @@ const char *fragmentShaderSource =
 
 int main()
 {
-	/*glewExperimental = GL_TRUE;
-	glewInit();*/
 	// glfw: initialize and configure
 	// ------------------------------
 	glfwInit();
